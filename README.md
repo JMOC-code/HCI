@@ -107,6 +107,9 @@ Se han tomado como referencia los principios generales de accesibilidad recogido
 Este repositorio contiene los archivos utilizados como apoyo técnico al proyecto ViveLocal.
 
 La implementación HTML/CSS no pretende reproducir toda la funcionalidad de una aplicación final, sino servir como una versión simplificada de la interfaz que permita comprobar de forma práctica determinadas decisiones de diseño y accesibilidad realizadas durante el proyecto.
+Contenido del repositorio
+
+También se conserva styles_INICIAL.css, correspondiente a la versión previa a la corrección de contraste, para documentar el cambio realizado durante la evaluación de accesibilidad.
 
 ## Proyecto académico
 
