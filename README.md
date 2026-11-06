@@ -110,4 +110,4 @@ La implementación HTML/CSS no pretende reproducir toda la funcionalidad de una 
 
 ## Proyecto académico
 
-Proyecto realizado para la asignatura de Diseño de Interacción.
+Proyecto realizado para la asignatura de Diseñar una interfaz web o móvil para una aplicación - Diseñar una interfaz web o móvil para una aplicación -
