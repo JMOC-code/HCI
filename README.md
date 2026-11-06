@@ -2,7 +2,7 @@
 
 ViveLocal es una propuesta de aplicación web/móvil orientada a facilitar el descubrimiento de eventos culturales cercanos, como conciertos, obras de teatro, exposiciones o actividades en museos.
 
-El proyecto ha sido desarrollado como parte de la asignatura de Diseño de Interacción, prestando especial atención a la usabilidad, la accesibilidad y la coherencia visual de la interfaz.
+El proyecto ha sido desarrollado como parte de la asignatura de HCI: Desarrollo web y móvil, prestando especial atención a la usabilidad, la accesibilidad y la coherencia visual de la interfaz.
 
 ## Objetivo
 
@@ -110,4 +110,4 @@ La implementación HTML/CSS no pretende reproducir toda la funcionalidad de una 
 
 ## Proyecto académico
 
-Proyecto realizado para la asignatura de Diseñar una interfaz web o móvil para una aplicación - Diseñar una interfaz web o móvil para una aplicación -
+Proyecto realizado para la asignatura de HCI: Desarrollo web y móvil - Diseñar una interfaz web o móvil para una aplicación -
