@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ViveLocal</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Eventos cerca de ti</p>
+        <h1>ViveLocal</h1>
+      </div>
+
+      <button class="icon-button" aria-label="Abrir notificaciones">
+        🔔
+      </button>
+    </header>
+
+    <section class="search-section" aria-labelledby="buscar-eventos">
+      <h2 id="buscar-eventos" class="sr-only">Buscar eventos</h2>
+
+      <label for="search" class="sr-only">Buscar eventos culturales</label>
+
+      <input
+        type="search"
+        id="search"
+        name="search"
+        placeholder="Buscar eventos..."
+      >
+
+      <button class="filter-button" type="button">
+        Filtros
+      </button>
+    </section>
+
+    <section aria-labelledby="categorias">
+      <h2 id="categorias">Categorías</h2>
+
+      <div class="categories">
+        <button class="category active" type="button">Conciertos</button>
+        <button class="category" type="button">Teatro</button>
+        <button class="category" type="button">Exposiciones</button>
+        <button class="category" type="button">Museos</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="eventos-cercanos">
+      <h2 id="eventos-cercanos">Eventos cerca de ti</h2>
+
+      <div class="event-list">
+
+        <article class="event-card">
+
+          <div class="event-image placeholder-image" role="img"
+               aria-label="Imagen representativa de una exposición en un museo">
+          </div>
+
+          <div class="event-card-top">
+            <span class="tag">Exposición</span>
+
+            <button
+              class="save-button"
+              type="button"
+              aria-label="Guardar Visita a Museo NoName"
+            >
+              ♡
+            </button>
+          </div>
+
+          <h3>Visita a MUSEO NoName</h3>
+
+          <p class="event-meta">
+            <span aria-hidden="true">📅</span>
+            Sábado, 15 de noviembre · 20:00
+          </p>
+
+          <div class="event-location">
+            <p>
+              <span aria-hidden="true">📍</span>
+              Paseo de la XXXXXXXX
+            </p>
+
+            <strong>Gratis</strong>
+          </div>
+
+          <button class="primary-button" type="button">
+            Ver evento
+          </button>
+
+        </article>
+
+        <article class="event-card">
+
+          <div class="event-image placeholder-image secondary-image" role="img"
+               aria-label="Imagen representativa de un concierto de jazz">
+          </div>
+
+          <div class="event-card-top">
+            <span class="tag secondary-tag">Concierto</span>
+
+            <button
+              class="save-button"
+              type="button"
+              aria-label="Guardar Concierto de Jazz"
+            >
+              ♡
+            </button>
+          </div>
+
+          <h3>Concierto de Jazz</h3>
+
+          <p class="event-meta">
+            <span aria-hidden="true">📅</span>
+            Sábado, 29 de noviembre · 21:00
+          </p>
+
+          <div class="event-location">
+            <p>
+              <span aria-hidden="true">📍</span>
+              Auditorio de la Ciudad
+            </p>
+
+            <strong>15 €</strong>
+          </div>
+
+          <button class="primary-button" type="button">
+            Ver evento
+          </button>
+
+        </article>
+
+      </div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <a href="#" class="nav-item active" aria-current="page">
+        <span aria-hidden="true">⌂</span>
+        Inicio
+      </a>
+
+      <a href="#" class="nav-item">
+        <span aria-hidden="true">⌕</span>
+        Explorar
+      </a>
+
+      <a href="#" class="nav-item">
+        <span aria-hidden="true">♡</span>
+        Guardados
+      </a>
+
+      <a href="#" class="nav-item">
+        <span aria-hidden="true">○</span>
+        Perfil
+      </a>
+    </nav>
+
+  </main>
+
+</body>
+</html>
